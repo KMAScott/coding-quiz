@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Coding Quiz</title>
 </head>
 <body>
     <header>
-        <a href="high-scores.html">High Scores</a>
-        <div id="timeRemaining"></div>
+        <button id="view-highscores">Highscores</button>
+        <p>Time: <span id="timer">9999</span></p>
     </header>
 
-    <section id="quizContent">
-        
-    </section>
+    <main>
+        <h1 id="Title">Coding Quiz Challenge</h1>
+        <p id="instructions">Answer the following coding related questions as quickly as possible. Incorrect answers will deduct 10 seconds from the time remaining. Good luck!</p>
+        <button id="startGameBtn">Start Game</button>
+        <ul>
+
+        </ul>
+        <div id="enter-highscore">
+            <h1>Quiz Complete!</h1>
+            <p>Your final score is <span id="score-span">9999</span>.</p>
+            <div id="name-input-div">
+                <h2>Enter Name:</h2>
+                <input type="text" id="hsname" name="hsname" value="">
+                <button id="submitName">Submit</button>
+            </div>
+        </div>
+
+        <div id="highscores">
+            <h1>Highscores</h1>
+            <ol>
+
+            </ol>
+            <button id="returnBtn">Return</button>
+            <button id="clearHighscoresBtn">Clear Highscores</button>
+        </div>
+    </main>
+
+
+    <script src="./assets/scripts/script.js"></script>
 </body>
 </html>
