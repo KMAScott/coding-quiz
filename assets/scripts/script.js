@@ -1,6 +1,5 @@
-var timer = document.getElementById("timer");
-var timeLeft = document.getElementById("timeLeft");
-var timesUp = document.getElementById("timesUp");
+var timerSpan = document.querySelector("#timerSpan");
+var timerP = document.querySelector("#timerP");
 
 
 var questionArr = [
