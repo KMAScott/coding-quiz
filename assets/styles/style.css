@@ -36,6 +36,16 @@ header {
     padding: 3px 10px 3px 10px;
 }
 
+#view-highscores:hover,
+#startGameBtn:hover,
+#submitName:hover,
+#returnBtn:hover,
+#clearHighscoresBtn:hover,
+main ul li:hover {
+    background: var(--btnBackgroundHover);
+    cursor: pointer;
+}
+
 header p {
     padding: 3px 10px 3px 10px; 
 }
