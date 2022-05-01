@@ -23,9 +23,11 @@ header {
     height: 100%;
 }
 
-#highscores > button,
-#enter-highscore > button,
-header button {
+#view-highscores,
+#startGameBtn,
+#submitName,
+#returnBtn,
+#clearHighscoresBtn {
     text-decoration: none;
     background: var(--btnBackground);
     color: var(--mainTextColor);
